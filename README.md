@@ -7,6 +7,8 @@ Here's an example of how the data looks like:
 
 <img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/examples.png">
 
+### Get the data
+
 The dataset is distributed as a set of `uint8` serialized `numpy` arays:
 
 | File        | Size           | Array dimension  | Description  |
@@ -16,9 +18,20 @@ The dataset is distributed as a set of `uint8` serialized `numpy` arays:
 | [Y_train.npy](https://github.com/lopeLH/unown-mnist/blob/main/Y_train.npy) | 469K      |    `(60000,)` | Training labels|
 | [Y_test.npy](https://github.com/lopeLH/unown-mnist/blob/main/Y_test.npy) | 79K      |    `(10000,)` |Test labels|
 
-To play arround with the augmentation steps applied to generate the dataset, and generate your own, have a look at [dataset_generation.ipynb](https://github.com/lopeLH/unown-mnist/blob/main/dataset_generation.ipynb).
+Once you have downloaded the files, you can load them in Python like this:
 
-FYI, I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) model so I could create some cool unown transitions and new species:
+```python
+import numpy as np
+
+X_train, Y_train = np.load("X_train.npy"), np.load("Y_train.npy")
+X_test, Y_test = np.load("X_test.npy"), np.load("Y_test.npy")
+```
+
+To play arround with the augmentation steps applied to generate the dataset, and generate your own, have a look at the notebook [dataset_generation.ipynb](https://github.com/lopeLH/unown-mnist/blob/main/dataset_generation.ipynb).
+
+### Okay, but why?
+
+I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) model so I could create some cool unown transitions and new species:
 
 <img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/transition.gif">
 
