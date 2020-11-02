@@ -3,7 +3,7 @@
 
 `Unown-MNIST` is a dataset of artificially augmented unown pokemon images consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 28 classes. After so many years, MNIST has become kind of boring. While `Unown-MNIST` is certainly too easy to be taken seriously as a benchmarking dataset, at least can serve as an amusing sanity check for new algorithms.
 
-Here's an example how the data looks:
+Here's an example of how the data looks like:
 
 <img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/examples.png">
 
