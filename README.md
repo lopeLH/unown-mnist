@@ -31,7 +31,7 @@ To play arround with the augmentation steps applied to generate the dataset, and
 
 ### Okay, but why?
 
-I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) model so I could create some cool unown transitions and new species:
+I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) model, so I could create some cool unown transitions and new species:
 
 <img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/transition.gif">
 
