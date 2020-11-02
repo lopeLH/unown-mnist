@@ -18,7 +18,7 @@ The dataset is distributed as a set of `uint8` serialized `numpy` arays:
 
 To play arround with the augmentation steps applied to generate the dataset, and generate your own, have a look at [dataset_generation.ipynb](https://github.com/lopeLH/unown-mnist/blob/main/dataset_generation.ipynb).
 
-FYI, I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) and create cool unown transitions, and of course some brand new unowns:
+FYI, I prepared this dataset to train a [GAN+CPPN](https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/) model so I could create some cool unown transitions and new species:
 
 <img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/transition.gif">
 
