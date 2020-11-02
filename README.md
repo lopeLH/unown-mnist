@@ -14,7 +14,16 @@ The dataset is distributed as a set of `uint8` serialized `numpy` arays:
 | [Y_train.npy](https://github.com/lopeLH/unown-mnist/blob/main/Y_train.npy) | 469K      |    `(60000,)` | Training labels|
 | [Y_test.npy](https://github.com/lopeLH/unown-mnist/blob/main/Y_test.npy) | 79K      |    `(10000,)` |Test labels|
 
-
-
-
 To play arround with the augmentation steps applied to generate the dataset, and generate your own, have a look at [dataset_generation.ipynb](https://github.com/lopeLH/unown-mnist/blob/main/dataset_generation.ipynb).
+
+FYI, I prepared this dataset to train a GAN+CPPN and create cool unown transitions, and of course some brand new unowns:
+
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/transition.gif">
+
+<div class="row">
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/generated1.gif" width=95> 
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/generated2.gif" width=95>
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/generated3.gif" width=95>
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/generated5.gif" width=95>
+<img src="https://github.com/lopeLH/unown-mnist/blob/main/doc/generated6.gif" width=95>
+</div>
